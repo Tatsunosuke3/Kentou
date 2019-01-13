@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="/kentou/goban-element.js"></script>
+  </head>
+  <body>
+    
+    
+    
+    <div class="grid-container">
+      <knt-goban id="goban" board-size="19"></knt-goban>
+      <div id="goban-ui">
+        <span>戻る</span>
+        <span>進む</span>
+      </div>  
+    </div>
+    
+    
+<!--     <div>
+      <knt-record id="record"></knt-record>
+      
+      <knt-goban id="" record-id="record"></knt-goban>
+      <knt-tree src="record"></knt-tree>
+    </div> -->
+    
+    <knt-record id="record">
+      <knt-branch>
+        <knt-node w="aa" c="test" ></knt-node>
+        <knt-node w="aa" c="test" ></knt-node>
+        <knt-node w="aa" c="test" ></knt-node>
+        <knt-node w="aa" c="test" ></knt-node>
+        
+        <knt-branch>
+          <knt-node w="aa" c="test" ></knt-node>
+          <knt-node w="aa" c="test" ></knt-node>
+          <knt-node w="aa" c="test" ></knt-node>
+          <knt-node w="aa" c="test" ></knt-node>
+        </knt-branch>
+        
+        <knt-branch>
+          <knt-node w="aa" c="test" ></knt-node>
+          <knt-node w="aa" c="test" ></knt-node>
+          <knt-node w="aa" c="test" ></knt-node>
+          <knt-node w="aa" c="test" ></knt-node>
+        </knt-branch>
+      </knt-branch>
+    </knt-record>
+    
+    
+    
+<!--     <script type="module" src="/test/test.js"></script> -->
+  </body>
+</html>
