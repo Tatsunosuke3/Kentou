@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+.grid-container {
+  display: grid;
+  
+  
+  width: 100vw;
+  height: 100vh;
+  
+  grid-template-rows: 80vh 20vh;
+  grid-template-columns: 60vw 40vw;
+}
+
+#goban {
+  grid-row: 1 / 2;
+}
+
+#goban-ui {
+  grid-row: 2 / 2;
+}
